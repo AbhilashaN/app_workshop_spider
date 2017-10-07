@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A0522D"
+    tools:context="com.example.android.accelerometer_try.Splash">
+
+
+    <ImageView
+        android:layout_width="312dp"
+        android:layout_height="179dp"
+        android:src="@drawable/splashbg"
+        tools:layout_editor_absoluteY="200dp"
+        tools:layout_editor_absoluteX="36dp"
+        android:layout_below="@+id/tv_splash"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="96dp" />
+
+    <TextView
+        android:id="@+id/tv_splash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="88dp"
+        android:text="CAR RACING"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="25sp"/>
+
+
+</RelativeLayout>
